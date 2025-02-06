@@ -85,7 +85,7 @@ void AAt_Death_We_PartCharacter::SetupPlayerInputComponent(UInputComponent* Play
 		EnhancedInputComponent->BindAction(MoveAction, ETriggerEvent::Triggered, this, &AAt_Death_We_PartCharacter::Move);
 
 		// Looking
-		EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AAt_Death_We_PartCharacter::Look);
+		//EnhancedInputComponent->BindAction(LookAction, ETriggerEvent::Triggered, this, &AAt_Death_We_PartCharacter::Look);
 	}
 	else
 	{
